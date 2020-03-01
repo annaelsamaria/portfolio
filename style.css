@@ -1,5 +1,142 @@
+* {
+  margin: 0;
+}
+
 body {
-  background: blueviolet;
-  font-family: 'Montserrat', ;
-  font-family: 'Roboto', ;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #fdf5f0;
+  font-size: 40px;
+}
+
+h2 {
+  background: #28555a;
+  display:inline-block;
+  padding: 5px;
+  margin: 0 auto;
+  color: #fdf5f0;
+  font-size: 22px;
+
+}
+
+h4 {
+  font-family: "Roboto-regular", sans-serif;
+  font-weight: 200;
+  color: #fdf5f0;
+  font-size: 14px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+/******** HERO CONTENT *******/
+
+.top-section{
+  background-image: url("assets/header-mob.jpg");
+  object-fit: cover;
+  height: 508px;
+}
+
+.top-section a {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#fdf5f0;
+}
+
+.profile-img {
+  height: 232px;
+  width: 232px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#fdf5f0;
+}
+
+
+/******** SUMMARY SECTION – ABOUT ME *******/
+
+
+.summary-section {
+  background:#fdf5f0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-container {
+  margin: 50px 36px;  
+}
+
+.summary-section p {
+  line-height: 28px;
+}
+
+.decoration-wrapper {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-top: 8px;
+}
+
+.line {
+  width: 40px;
+  height: 4px;
+  background:#28555a;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:#28555a;
+  margin-left: -3px;
+}
+
+
+/******** TECH SECTION *******/
+
+.tech-section {
+  margin: 50px 36px;  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tech-section p {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+/******** FEATURED PROJECS SECTION *******/
+
+/******** MY THOUGHTS ABOUT CODE *******/
+
+/******** SKILLS *******/
+
+/******** FOR MORE *******/
+
+
+/*********** MEDIA **************/
+
+@media (min-width: 669px) {
+  .top-section{
+    background-image: url("assets/header-desktop.jpg");
+    height: 655px;
+  }
 }
