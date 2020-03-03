@@ -6,27 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio Anna G</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Roboto:400,700&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Roboto:200,400,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <section class="top-section">
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/anna-gustafsson-1514374b/" target="_blank"> <img src="assets/linkedin.svg"
-            alt="linkedin icon"></a>
-        <a href="https://www.linkedin.com/in/anna-gustafsson-1514374b/" target="_blank"><img src="assets/github.svg"
-            alt="github icon"></a>
-        <a href="https://www.linkedin.com/in/anna-gustafsson-1514374b/" target="_blank"> <img src="assets/stack.svg"
-            alt="stackoverflow icon"></a>
-      </div>
-      <h4>PORTFOLIO <strong>ANNA GUSTAFSSON</strong></h4>
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/anna-gustafsson-1514374b/" target="_blank" class="circles">
+        <img class="icon" src="assets/linkedin.svg" alt="linkedin icon">
+      </a>
+      <a href="https://github.com/annaelsamaria" target="_blank" class="circles">
+        <img class="icon" src="assets/github.svg" alt="github icon">
+      </a>
+      <a href="https://stackoverflow.com/users/12669121/anna-gustafsson" target="_blank" class="circles">
+        <img class="icon" src="assets/stack.svg" alt="stackoverflow icon">
+      </a>
+    </div>
+    <div class="header-text">
+      <h4>PORTFOLIO: <strong>ANNA GUSTAFSSON</strong></h4>
       <h1>frontend developer <br>+ art director</h1>
-      <img src="assets/anna.jpg" alt="profile picture" class="profile-img">
-    </section>
+    </div>
+    <img class="profile-img" src="assets/anna.jpg" alt="profile picture">
   </header>
+
   <section class="summary-section">
     <div class="summary-container">
       <div class="decoration-wrapper">
@@ -48,22 +52,117 @@
       mob-programming, pair-programming, Github.</p>
   </section>
 
-  <section>
-    <h2>FEATURED PROJECTS</h2>
-    <article> </article>
-    <article> </article>
-    <article> </article>
-    <article> </article>
-    <h3>OTHER PROJECTS</h2>
-      <p></p>
+
+  <section class="featured-projects">
+    <div class="projects-container">
+      <h2>FEATURED PROJECTS</h2>
+
+      <article class="project-one">
+        <a href="https://heuristic-curran-627446.netlify.com/">
+          <div class="project-one-img">
+            <h5>PROJECT WEATHER APP</h5>
+          </div>
+          <div class="project-information">
+            <p><strong>WEATHER APP.</strong> Web app build in Javascript using open weather API <strong>>></strong>
+            </p>
+        </a>
+        <p class="small-p">HTML5</p>
+        <p class="small-p">CSS3</p>
+        <p class="small-p">JavaScript ES6</p>
+        <p class="small-p">APIs</p>
+    </div>
+    </article>
+
+
+    <article class="project-two">
+      <a href="https://stupefied-wing-ba0358.netlify.com/">
+        <div class="project-two-img">
+          <h5>PROJECT BUSINESS SITE</h5>
+        </div>
+        <div class="project-information">
+          <p><strong>BUSINESS SITE</strong> Web app build in Javascript using open weather API <strong>>></strong>
+          </p>
+      </a>
+      <p class="small-p">HTML5</p>
+      <p class="small-p">CSS3</p>
+      <p class="small-p">JavaScript ES6</p>
+      <p class="small-p">APIs</p>
+      </div>
+    </article>
+
+
+    <h3>OTHER PROJECTS</h3>
+    <div class="project-information">
+      <a href="https://stupefied-wing-ba0358.netlify.com/">
+        <p><strong>BUSINESS SITE</strong> Web app build in Javascript using open weather API <br><strong>>></strong>
+        </p>
+      </a>
+      <p class="small-p">HTML5</p>
+      <p class="small-p">CSS3</p>
+      <p class="small-p">JavaScript ES6</p>
+      <p class="small-p">APIs</p>
+    </div>
+
+    <div class="project-information">
+      <a href="https://stupefied-wing-ba0358.netlify.com/">
+        <p><strong>BUSINESS SITE</strong> Web app build in Javascript using open weather API <br><strong>>></strong>
+        </p>
+      </a>
+      <p class="small-p">HTML5</p>
+      <p class="small-p">CSS3</p>
+      <p class="small-p">JavaScript ES6</p>
+      <p class="small-p">APIs</p>
+    </div>
+
+    <div class="project-information">
+      <a href="https://stupefied-wing-ba0358.netlify.com/">
+        <p><strong>BUSINESS SITE</strong> Web app build in Javascript using open weather API <br><strong>>></strong>
+        </p>
+      </a>
+      <p class="small-p">HTML5</p>
+      <p class="small-p">CSS3</p>
+      <p class="small-p">JavaScript ES6</p>
+      <p class="small-p">APIs</p>
+    </div>
+
   </section>
 
-  <section>
-    <h2>MY THOUGHTS ABOUT CODE</h2>
-    <article></article>
-    <article></article>
-    <p></p>
-    <p></p>
+  <section class="thoughts-section">
+    <h2>MY THOUGHTS</h2>
+    <article class="thoughts-one">
+      <a href="">
+        <img src="assets/code-small.png" alt="computer">
+        <div class="thoughts-content">
+          <p>DEC 2019<br>
+            <strong>to stop being scared: Learning to love code </strong> <br>Writing code is less about “just working”.
+            Instead, it’s much more about creativity. It’s similar to creative writing in that the author architecting a
+            story must use an assortment of tools and components (i.e., content) in such a way to satisfy a particular
+            objective.
+            >>
+          </p>
+        </div>
+      </a>
+    </article>
+
+    <h3>MORE THOUGHTS</h3>
+    <div class="more-thoughts">
+      <a href="https://stupefied-wing-ba0358.netlify.com/">
+        <p><strong>BUSINESS SITE</strong> Web app build in Javascript using open weather API <br><strong>>></strong>
+        </p>
+      </a>
+    </div>
+    <div class="more-thoughts">
+      <a href="https://stupefied-wing-ba0358.netlify.com/">
+        <p><strong>BUSINESS SITE</strong> Web app build in Javascript using open weather API <br><strong>>></strong>
+        </p>
+      </a>
+    </div>
+    <div class="more-thoughts">
+      <a href="https://stupefied-wing-ba0358.netlify.com/">
+        <p><strong>BUSINESS SITE</strong> Web app build in Javascript using open weather API <br><strong>>></strong>
+        </p>
+      </a>
+    </div>
   </section>
 
   <section>
