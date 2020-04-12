@@ -13,7 +13,7 @@ h1 {
 
 h2 {
   background: #cc443a;
-  display:inline;
+  display: inline;
   padding: 5px;
   margin: auto;
   color: #fff;
@@ -179,14 +179,23 @@ header{
   justify-content: center;
   height: 177px;
   width: 300px;
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
-.weather-app {
-  background-image: url("assets/weather-small.png");
+.project-img:hover {
+  opacity: 0.5;
 }
 
-.business-site {
-  background-image: url("assets/weather-small.png");
+.first-project {
+  background-image: url("assets/survey.jpg");
+}
+
+.second-project {
+  background-image: url("assets/happy.jpg");
 }
 
 .project-information {
@@ -239,10 +248,10 @@ li {
 
 .some-circles {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  display:flex;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 3px solid #f0cdba;
@@ -274,103 +283,103 @@ footer h3 {
 
 @media (min-width: 669px) {
 
-header {
-  background-image: url("assets/header-desktop.jpg");
-  padding: 100px 100px 0 100px;
+  header {
+    background-image: url("assets/header-desktop.jpg");
+    padding: 100px 100px 0 100px;
+    }
+
+  /**** Summary ****/
+
+  .summary-container {
+    margin: 70px 100px 50px;  
   }
 
-/**** Summary ****/
+  /******** TECH SECTION *******/
 
-.summary-container {
-  margin: 70px 100px 50px;  
-}
+  .white-section {
+    margin: 50px 100px;  
+  }
 
-/******** TECH SECTION *******/
+  .pink-section {
+    padding: 50px 100px;
+  }
 
-.white-section {
-  margin: 50px 100px;  
-}
+  /******** Projects **********/
 
-.pink-section {
-  padding: 50px 100px;
-}
+  .other-projects {
+    margin: auto;
+  }
 
-/******** Projects **********/
+  .projects-container {
+    display: flex;
+    justify-content: center;
+  }
 
-.other-projects {
-  margin: auto;
-}
+  .project-card {
+    margin: 0 10px;
+  }
 
-.projects-container {
-  display: flex;
-  justify-content: center;
-}
+  /*** skills ********/
 
-.project-card {
-  margin: 0 10px;
-}
+  ul {
+    width: auto;
+  }
 
-/*** skills ********/
-
-ul {
-  width: auto;
-}
-
-.skills {
-  flex-direction: row;
-}
+  .skills {
+    flex-direction: row;
+  }
 
 @media (min-width: 1024px) {
 
-h1 {
-  font-size: 50px;
-}
+  h1 {
+    font-size: 50px;
+  }
 
-h4 {
-  font-size: 20px;
-}
+  h4 {
+    font-size: 20px;
+  }
 
-header {
-  background-image: url("assets/header-desktop.jpg");
-  padding: 100px 200px 0 200px;
-}
+  header {
+    background-image: url("assets/header-desktop.jpg");
+    padding: 100px 200px 0 200px;
+  }
 
-.profile-img {
-  width: 330px;
-  height: 330px;
-}
+  .profile-img {
+    width: 330px;
+    height: 330px;
+  }
 
-/**** Summary ****/
+  /**** Summary ****/
 
-.summary-container {
-  margin: 70px 200px 50px;  
-}
+  .summary-container {
+    margin: 100px 200px 50px;  
+  }
 
-/******** TECH SECTION *******/
+  /******** TECH SECTION *******/
 
-.white-section {
-  margin: 50px 200px;  
-}
+  .white-section {
+    margin: 50px 200px;  
+  }
 
-.pink-section {
-  padding: 50px 200px;
-}
+  .pink-section {
+    padding: 50px 200px;
+  }
 
-/********* projects **********/
+  /********* projects **********/
 
-.projects-container {
-  display: flex;
-  justify-content: center;
-}
+  .projects-container {
+    display: flex;
+    justify-content: center;
+  }
 
-/******** thoughts ***********/
+  /******** thoughts ***********/
 
-.only-mobile {
-  display: none;
-}
+  .only-mobile {
+    display: none;
+  }
 
-.only-desktop {
-  display: block;
-}
+  .only-desktop {
+    display: block;
+  }
 
 }
