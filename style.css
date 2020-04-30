@@ -59,6 +59,7 @@ p {
   display: inline-block;
   padding: 0 7px;
   font-size: 10px;
+  margin: 10px 0;
 }
 
 .centered-p {
@@ -313,10 +314,11 @@ footer h3 {
   .projects-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .project-card {
-    margin: 0 10px;
+    margin: 10px;
   }
 
   /*** skills ********/
@@ -341,7 +343,7 @@ footer h3 {
 
   header {
     background-image: url("assets/header-desktop.jpg");
-    padding: 100px 200px 0 200px;
+    padding: 100px 250px 0 200px;
   }
 
   .profile-img {
@@ -352,17 +354,17 @@ footer h3 {
   /**** Summary ****/
 
   .summary-container {
-    margin: 100px 200px 50px;  
+    margin: 100px 250px 50px;  
   }
 
   /******** TECH SECTION *******/
 
   .white-section {
-    margin: 50px 200px;  
+    margin: 50px 250px;  
   }
 
   .pink-section {
-    padding: 50px 200px;
+    padding: 50px 250px;
   }
 
   /********* projects **********/
@@ -370,6 +372,7 @@ footer h3 {
   .projects-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   /******** thoughts ***********/
