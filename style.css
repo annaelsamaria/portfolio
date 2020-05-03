@@ -178,7 +178,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 177px;
+  height: 200px;
   width: 300px;
   opacity: 1;
   transition: opacity 0.4s ease-in-out;
@@ -192,12 +192,25 @@ header{
 }
 
 .first-project {
-  background-image: url("assets/survey.jpg");
+  background-image: url("assets/project_survey.jpg");
+  background-size: cover;
 }
 
 .second-project {
-  background-image: url("assets/happy.jpg");
+  background-image: url("assets/project_happythoughts.jpg");
+  background-size: cover;
 }
+
+.third-project {
+  background-image: url("assets/project_todos.jpg");
+  background-size: cover;
+}
+
+.fourth-project {
+  background-image: url("assets/project_movies.jpg");
+  background-size: cover;
+}
+
 
 .project-information {
   margin: 20px 0;
@@ -330,6 +343,7 @@ footer h3 {
   .skills {
     flex-direction: row;
   }
+}
 
 @media (min-width: 1024px) {
 
@@ -384,5 +398,4 @@ footer h3 {
   .only-desktop {
     display: block;
   }
-
 }
